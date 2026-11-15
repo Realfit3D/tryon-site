@@ -1,317 +1,301 @@
 {
- "heights": [
-  {
-   "id": "150-160",
-   "label": "150–160 cm",
-   "value": 155
-  },
-  {
-   "id": "160-170",
-   "label": "160–170 cm",
-   "value": 165
-  },
-  {
-   "id": "170-180",
-   "label": "170–180 cm",
-   "value": 175
-  },
-  {
-   "id": "180-190",
-   "label": "180–190 cm",
-   "value": 185
-  }
- ],
- "weights": [
-  {
-   "id": "40-50",
-   "label": "40–50 kg",
-   "value": 45
-  },
-  {
-   "id": "50-60",
-   "label": "50–60 kg",
-   "value": 55
-  },
-  {
-   "id": "60-70",
-   "label": "60–70 kg",
-   "value": 65
-  },
-  {
-   "id": "70-80",
-   "label": "70–80 kg",
-   "value": 75
-  },
-  {
-   "id": "80-90",
-   "label": "80–90 kg",
-   "value": 85
-  }
- ],
- "garments": {
-  "Actor05_lower": {
-   "label": "Actor05 下身",
-   "slot": "lower",
-   "source_gender": "male",
-   "template_frame": 0
-  },
-  "Actor07_lower": {
-   "label": "Actor07 下身",
-   "slot": "lower",
-   "source_gender": "male",
-   "template_frame": 0
-  },
-  "Actor08_lower": {
-   "label": "Actor08 下身",
-   "slot": "lower",
-   "source_gender": "male",
-   "template_frame": 0
-  },
-  "Actor05_upper": {
-   "label": "Actor05 上身",
-   "slot": "upper",
-   "source_gender": "male",
-   "template_frame": 0
-  },
-  "Actor07_upper": {
-   "label": "Actor07 上身",
-   "slot": "upper",
-   "source_gender": "male",
-   "template_frame": 0
-  },
-  "Actor08_upper": {
-   "label": "Actor08 上身",
-   "slot": "upper",
-   "source_gender": "male",
-   "template_frame": 0
-  },
-  "Actor02_lower": {
-   "label": "Actor02 下身",
-   "slot": "lower",
-   "source_gender": "male",
-   "template_frame": 0
-  },
-  "Actor05": {
-   "label": "工裝褲 (Actor05)",
-   "slot": "lower",
-   "source_gender": "male",
-   "template_frame": 156
-  },
-  "Actor05_upper_stage3_clean": {
-   "label": "素色T恤 (Actor05)",
-   "slot": "upper",
-   "source_gender": "male",
-   "template_frame": 156
-  },
-  "Actor08_shorts": {
-   "label": "卡其短褲 (Actor08)",
-   "slot": "lower",
-   "source_gender": "male",
-   "template_frame": 268
-  },
-  "Actor08_shirt": {
-   "label": "格紋襯衫 (Actor08)",
-   "slot": "upper",
-   "source_gender": "male",
-   "template_frame": 183
-  },
-  "Actor05_lower_clip": {
-   "label": "Actor05 修補版長褲",
-   "slot": "lower",
-   "source_gender": "male",
-   "template_frame": 0,
-   "asset_version": "stage11_stage234_20261112",
-   "quality_status": "experimental_with_known_artifacts"
-  },
-  "Actor05_hem58_clip": {
-   "label": "Actor05 修補版上衣",
-   "slot": "upper",
-   "source_gender": "male",
-   "template_frame": 0,
-   "asset_version": "stage11_stage234_20261112",
-   "quality_status": "experimental_with_known_artifacts"
-  },
-  "Actor08_upper_clip": {
-   "label": "Actor08 修補版格紋襯衫",
-   "slot": "upper",
-   "source_gender": "male",
-   "template_frame": 0,
-   "asset_version": "stage11_stage23_20261112",
-   "quality_status": "experimental_with_known_geometry_issues"
-  },
-  "Actor08_lower_clip": {
-   "label": "Actor08 修補版短褲",
-   "slot": "lower",
-   "source_gender": "male",
-   "template_frame": 0,
-   "asset_version": "stage11_stage23_20261112",
-   "quality_status": "experimental_with_known_geometry_issues"
-  },
-  "Actor06_lower_clip": {
-   "label": "Actor06 修補版長褲",
-   "slot": "lower",
-   "source_gender": "female",
-   "template_frame": 0,
-   "asset_version": "stage11_stage234_20261113",
-   "quality_status": "experimental_with_known_geometry_issues"
-  },
-  "Actor07_upper_clip": {
-   "label": "Actor07 修補版上衣",
-   "slot": "upper",
-   "source_gender": "male",
-   "template_frame": 0,
-   "asset_version": "stage11_stage234_20261113",
-   "quality_status": "experimental_with_known_geometry_issues"
-  },
-  "Actor07_lower_clip": {
-   "label": "Actor07 修補版長褲",
-   "slot": "lower",
-   "source_gender": "male",
-   "template_frame": 0,
-   "asset_version": "stage11_stage234_20261113",
-   "quality_status": "experimental_with_known_geometry_issues"
-  },
-  "Actor06_lower": {
-   "label": "Actor06 下身",
-   "slot": "lower",
-   "source_gender": "female",
-   "template_frame": 0
-  },
-  "Actor06_upper": {
-   "label": "Actor06 上身",
-   "slot": "upper",
-   "source_gender": "female",
-   "template_frame": 0
-  }
- },
- "motions": {
-  "137_26_t05": {
-   "label": "動作一",
-   "file": "CMU/137/137_26_t05_stageii.npz",
-   "cmu_description": "Normal Coffee Mug：正常走路，手上拿著杯子（取第 5~10 秒）",
-   "source_motion": "137_26",
-   "start_seconds": 5.0,
-   "lead_seconds": 0.333,
-   "rotated_yaw_degrees": 0.0,
-   "length_seconds": 5.33,
-   "padded_seconds": 0.0
-  },
-  "35_01": {
-   "label": "動作二",
-   "file": "CMU/35/35_01_stageii.npz",
-   "cmu_description": "walk（整段，約 3 秒）",
-   "source_motion": "35_01",
-   "start_seconds": 0.0,
-   "lead_seconds": 0.0,
-   "rotated_yaw_degrees": -57.3,
-   "length_seconds": 2.98,
-   "padded_seconds": 0.0
-  },
-  "80_26_t02": {
-   "label": "動作三",
-   "file": "CMU/80/80_26_t02_stageii.npz",
-   "cmu_description": "dialing phone（取第 2~7 秒）",
-   "source_motion": "80_26",
-   "start_seconds": 2.0,
-   "lead_seconds": 0.333,
-   "rotated_yaw_degrees": -59.2,
-   "length_seconds": 5.33,
-   "padded_seconds": 0.0
-  }
- },
- "fit_rules": [
-  {
-   "garment": "Actor05_lower_clip",
-   "reason": "褲長過長",
-   "bodies": [
+  "heights": [
     {
-     "gender": "male",
-     "height": 155
+      "id": "150-160",
+      "label": "150–160 cm",
+      "value": 155
     },
     {
-     "gender": "male",
-     "height": 165
+      "id": "160-170",
+      "label": "160–170 cm",
+      "value": 165
     },
     {
-     "gender": "female",
-     "height": 155
+      "id": "170-180",
+      "label": "170–180 cm",
+      "value": 175
     },
     {
-     "gender": "female",
-     "height": 165
+      "id": "180-190",
+      "label": "180–190 cm",
+      "value": 185
     }
-   ]
-  },
-  {
-   "garment": "Actor07_lower_clip",
-   "reason": "褲長過長",
-   "bodies": [
+  ],
+  "weights": [
     {
-     "gender": "male",
-     "height": 155
+      "id": "40-50",
+      "label": "40–50 kg",
+      "value": 45
     },
     {
-     "gender": "female",
-     "height": 155
+      "id": "50-60",
+      "label": "50–60 kg",
+      "value": 55
+    },
+    {
+      "id": "60-70",
+      "label": "60–70 kg",
+      "value": 65
+    },
+    {
+      "id": "70-80",
+      "label": "70–80 kg",
+      "value": 75
+    },
+    {
+      "id": "80-90",
+      "label": "80–90 kg",
+      "value": 85
     }
-   ]
-  },
-  {
-   "garment": "Actor05",
-   "reason": "褲長過長",
-   "bodies": [
-    {
-     "gender": "female"
+  ],
+  "garments": {
+    "Actor05_lower": {
+      "label": "Actor05 下身",
+      "slot": "lower",
+      "source_gender": "male",
+      "template_frame": 0
     },
-    {
-     "gender": "male",
-     "height": 165
+    "Actor07_lower": {
+      "label": "Actor07 下身",
+      "slot": "lower",
+      "source_gender": "male",
+      "template_frame": 0
+    },
+    "Actor08_lower": {
+      "label": "Actor08 下身",
+      "slot": "lower",
+      "source_gender": "male",
+      "template_frame": 0
+    },
+    "Actor05_upper": {
+      "label": "Actor05 上身",
+      "slot": "upper",
+      "source_gender": "male",
+      "template_frame": 0
+    },
+    "Actor07_upper": {
+      "label": "Actor07 上身",
+      "slot": "upper",
+      "source_gender": "male",
+      "template_frame": 0
+    },
+    "Actor08_upper": {
+      "label": "Actor08 上身",
+      "slot": "upper",
+      "source_gender": "male",
+      "template_frame": 0
+    },
+    "Actor02_lower": {
+      "label": "Actor02 下身",
+      "slot": "lower",
+      "source_gender": "male",
+      "template_frame": 0
+    },
+    "Actor05": {
+      "label": "工裝褲 (Actor05)",
+      "slot": "lower",
+      "source_gender": "male",
+      "template_frame": 156
+    },
+    "Actor05_upper_stage3_clean": {
+      "label": "素色T恤 (Actor05)",
+      "slot": "upper",
+      "source_gender": "male",
+      "template_frame": 156
+    },
+    "Actor08_shorts": {
+      "label": "卡其短褲 (Actor08)",
+      "slot": "lower",
+      "source_gender": "male",
+      "template_frame": 268
+    },
+    "Actor08_shirt": {
+      "label": "格紋襯衫 (Actor08)",
+      "slot": "upper",
+      "source_gender": "male",
+      "template_frame": 183
+    },
+    "Actor05_lower_clip": {
+      "label": "Actor05 修補版長褲",
+      "slot": "lower",
+      "source_gender": "male",
+      "template_frame": 0,
+      "asset_version": "stage11_stage234_20261112",
+      "quality_status": "experimental_with_known_artifacts"
+    },
+    "Actor05_hem58_clip": {
+      "label": "Actor05 修補版上衣",
+      "slot": "upper",
+      "source_gender": "male",
+      "template_frame": 0,
+      "asset_version": "stage11_stage234_20261112",
+      "quality_status": "experimental_with_known_artifacts"
+    },
+    "Actor08_upper_clip": {
+      "label": "Actor08 修補版格紋襯衫",
+      "slot": "upper",
+      "source_gender": "male",
+      "template_frame": 0,
+      "asset_version": "stage11_stage23_20261112",
+      "quality_status": "experimental_with_known_geometry_issues"
+    },
+    "Actor08_lower_clip": {
+      "label": "Actor08 修補版短褲",
+      "slot": "lower",
+      "source_gender": "male",
+      "template_frame": 0,
+      "asset_version": "stage11_stage23_20261112",
+      "quality_status": "experimental_with_known_geometry_issues"
+    },
+    "Actor06_lower_clip": {
+      "label": "Actor06 修補版長褲",
+      "slot": "lower",
+      "source_gender": "female",
+      "template_frame": 0,
+      "asset_version": "stage11_stage234_20261113",
+      "quality_status": "experimental_with_known_geometry_issues"
+    },
+    "Actor07_upper_clip": {
+      "label": "Actor07 修補版上衣",
+      "slot": "upper",
+      "source_gender": "male",
+      "template_frame": 0,
+      "asset_version": "stage11_stage234_20261113",
+      "quality_status": "experimental_with_known_geometry_issues"
+    },
+    "Actor07_lower_clip": {
+      "label": "Actor07 修補版長褲",
+      "slot": "lower",
+      "source_gender": "male",
+      "template_frame": 0,
+      "asset_version": "stage11_stage234_20261113",
+      "quality_status": "experimental_with_known_geometry_issues"
+    },
+    "Actor06_lower": {
+      "label": "Actor06 下身",
+      "slot": "lower",
+      "source_gender": "female",
+      "template_frame": 0
+    },
+    "Actor06_upper": {
+      "label": "Actor06 上身",
+      "slot": "upper",
+      "source_gender": "female",
+      "template_frame": 0
     }
-   ]
   },
-  {
-   "garment": "Actor05_lower",
-   "reason": "褲長過長",
-   "bodies": [
-    {
-     "gender": "male",
-     "height": 155
+  "motions": {
+    "137_26_t05": {
+      "label": "動作一",
+      "file": "CMU/137/137_26_t05_stageii.npz",
+      "cmu_description": "Normal Coffee Mug：正常走路，手上拿著杯子（取第 5~10 秒）",
+      "source_motion": "137_26",
+      "start_seconds": 5.0,
+      "lead_seconds": 0.333,
+      "rotated_yaw_degrees": 0.0,
+      "length_seconds": 5.33,
+      "padded_seconds": 0.0
     },
-    {
-     "gender": "male",
-     "height": 165
+    "35_01": {
+      "label": "動作二",
+      "file": "CMU/35/35_01_stageii.npz",
+      "cmu_description": "walk（整段，約 3 秒）",
+      "source_motion": "35_01",
+      "start_seconds": 0.0,
+      "lead_seconds": 0.0,
+      "rotated_yaw_degrees": -57.3,
+      "length_seconds": 2.98,
+      "padded_seconds": 0.0
     },
-    {
-     "gender": "female",
-     "height": 155
-    },
-    {
-     "gender": "female",
-     "height": 165
+    "80_26_t02": {
+      "label": "動作三",
+      "file": "CMU/80/80_26_t02_stageii.npz",
+      "cmu_description": "dialing phone（取第 2~7 秒）",
+      "source_motion": "80_26",
+      "start_seconds": 2.0,
+      "lead_seconds": 0.333,
+      "rotated_yaw_degrees": -59.2,
+      "length_seconds": 5.33,
+      "padded_seconds": 0.0
     }
-   ]
   },
-  {
-   "garment": "Actor07_lower",
-   "reason": "褲長過長",
-   "bodies": [
+  "fit_rules": [
     {
-     "gender": "male",
-     "height": 155
+      "garment": "Actor05_lower_clip",
+      "reason": "褲長過長",
+      "bodies": [
+        {
+          "gender": "male",
+          "height": 155
+        },
+        {
+          "gender": "female",
+          "height": 155
+        }
+      ]
     },
     {
-     "gender": "male",
-     "height": 165
+      "garment": "Actor07_lower_clip",
+      "reason": "褲長過長",
+      "bodies": [
+        {
+          "gender": "male",
+          "height": 155
+        },
+        {
+          "gender": "female",
+          "height": 155
+        }
+      ]
     },
     {
-     "gender": "female",
-     "height": 155
+      "garment": "Actor05",
+      "reason": "褲長過長",
+      "bodies": [
+        {
+          "gender": "female"
+        },
+        {
+          "gender": "male",
+          "height": 165
+        }
+      ]
     },
     {
-     "gender": "female",
-     "height": 165
+      "garment": "Actor05_lower",
+      "reason": "褲長過長",
+      "bodies": [
+        {
+          "gender": "male",
+          "height": 155
+        },
+        {
+          "gender": "female",
+          "height": 155
+        }
+      ]
+    },
+    {
+      "garment": "Actor07_lower",
+      "reason": "褲長過長",
+      "bodies": [
+        {
+          "gender": "male",
+          "height": 155
+        },
+        {
+          "gender": "male",
+          "height": 165
+        },
+        {
+          "gender": "female",
+          "height": 155
+        },
+        {
+          "gender": "female",
+          "height": 165
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }
